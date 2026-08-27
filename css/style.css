@@ -266,15 +266,21 @@ ul {
 
     overflow: hidden;
 
-    background:
+background-image:
     linear-gradient(
-        120deg,
-        #4b1767 0%,
-        #702283 25%,
-        #c2187a 52%,
-        #d83a3a 72%,
-        #ef7d22 100%
-    );
+        90deg,
+        rgba(45, 10, 70, 0.88) 0%,
+        rgba(75, 23, 103, 0.72) 35%,
+        rgba(75, 23, 103, 0.20) 65%,
+        rgba(0, 0, 0, 0.05) 100%
+    ),
+    url("../images/weinse-hero.png");
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
 }
 
 
