@@ -3883,7 +3883,44 @@ background:
             var(--light-purple)
         );
 }
+/* ==========================================
+   WIDE+ PROJECT PARTNER
+========================================== */
 
+.wide-partner-fact {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wide-partner-logo {
+    display: block;
+
+    width: 135px;
+    max-width: 85%;
+
+    height: auto;
+
+    object-fit: contain;
+
+    margin: 10px auto 8px;
+}
+
+
+.wide-partner-fact strong {
+    color: var(--purple-dark);
+}
+
+
+.wide-partner-fact p {
+    color: var(--grey);
+
+    font-size: 13px;
+}
 
 /* ==========================================
    FEATURED PROJECT DESCRIPTION
