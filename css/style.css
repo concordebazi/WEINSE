@@ -1022,6 +1022,237 @@ background:
     font-size: 14px;
 }
 /* ==========================================
+   PROGRAMS OVERVIEW PAGE
+========================================== */
+
+.programs-intro {
+    max-width: 850px;
+    text-align: center;
+}
+
+.programs-intro h2 {
+    color: var(--purple-dark);
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.programs-intro p {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Programs background */
+
+.programs-overview-section {
+    background: var(--light-grey);
+}
+
+
+/* Five program cards */
+
+.program-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+
+/* Individual card */
+
+.program-overview-card {
+    position: relative;
+
+    min-height: 370px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 38px 32px;
+
+    background: #ffffff;
+
+    border-radius: 22px;
+
+    color: var(--dark);
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* Hover */
+
+.program-overview-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 22px 45px
+        rgba(74, 20, 95, 0.16);
+}
+
+
+/* Program number */
+
+.overview-number {
+    position: absolute;
+
+    top: 20px;
+    right: 25px;
+
+    font-size: 45px;
+    font-weight: 800;
+
+    opacity: 0.10;
+}
+
+
+/* Icon */
+
+.overview-icon {
+    width: 68px;
+    height: 68px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    font-size: 32px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Card title */
+
+.program-overview-card h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+    line-height: 1.25;
+}
+
+
+/* Card text */
+
+.program-overview-card p {
+    color: var(--grey);
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* Explore link */
+
+.overview-link {
+    margin-top: auto;
+
+    font-weight: 700;
+
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   INDIVIDUAL WEINSE PROGRAM COLORS
+========================================== */
+
+
+/* 01 - Coaching & Mentoring */
+
+.program-purple {
+    border-top: 6px solid var(--purple);
+}
+
+.program-purple .overview-icon {
+    background: var(--light-purple);
+}
+
+.program-purple h3,
+.program-purple .overview-link {
+    color: var(--purple);
+}
+
+
+/* 02 - Training */
+
+.program-orange {
+    border-top: 6px solid var(--orange);
+}
+
+.program-orange .overview-icon {
+    background: var(--light-orange);
+}
+
+.program-orange h3,
+.program-orange .overview-link {
+    color: var(--orange);
+}
+
+
+/* 03 - Consultancy */
+
+.program-blue {
+    border-top: 6px solid var(--blue);
+}
+
+.program-blue .overview-icon {
+    background: var(--light-blue);
+}
+
+.program-blue h3,
+.program-blue .overview-link {
+    color: var(--blue);
+}
+
+
+/* 04 - Capacity Building */
+
+.program-green {
+    border-top: 6px solid var(--green);
+}
+
+.program-green .overview-icon {
+    background: var(--light-green);
+}
+
+.program-green h3,
+.program-green .overview-link {
+    color: var(--green-dark);
+}
+
+
+/* 05 - Research */
+
+.program-pink {
+    border-top: 6px solid var(--pink);
+}
+
+.program-pink .overview-icon {
+    background: var(--light-pink);
+}
+
+.program-pink h3,
+.program-pink .overview-link {
+    color: var(--pink);
+}
+/* ==========================================
    PROGRAM INNER PAGES
 ========================================== */
 
@@ -1618,7 +1849,13 @@ background:
 
         gap: 30px;
     }
+    .program-overview-grid {
+        grid-template-columns: 1fr;
+    }
 
+    .programs-intro h2 {
+        font-size: 34px;
+    }
 
     /* ==========================================
        PROGRAM PAGES - MOBILE
