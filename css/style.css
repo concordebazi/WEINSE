@@ -2393,6 +2393,16 @@ background:
         min-height: auto;
         padding: 38px 28px;
     }
+           /* ABOUT VALUES - MOBILE */
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .value-card {
+        min-height: auto;
+        padding: 30px 26px;
+    }
     }
    
 
