@@ -2191,6 +2191,15 @@ background:
 
     .programs-intro h2 {
         font-size: 34px;
+       .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mission-card,
+    .vision-card {
+        min-height: auto;
+        padding: 38px 28px;
+    }
     }
    
 
