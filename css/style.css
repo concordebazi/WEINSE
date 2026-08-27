@@ -1022,6 +1022,91 @@ background:
     font-size: 14px;
 }
 /* ==========================================
+   ABOUT US PAGE
+========================================== */
+
+
+/* ---------- ABOUT HERO ---------- */
+
+.about-page-hero {
+    position: relative;
+
+    min-height: 470px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 90px 0;
+
+    color: #ffffff;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            120deg,
+            var(--blue-dark) 0%,
+            var(--blue) 35%,
+            var(--green) 72%,
+            var(--orange) 100%
+        );
+}
+
+
+/* Decorative circle */
+
+.about-page-hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 430px;
+    height: 430px;
+
+    border-radius: 50%;
+
+    right: -100px;
+    top: -140px;
+
+    background:
+        rgba(255, 255, 255, 0.10);
+}
+
+
+.about-page-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+.about-page-hero .section-label {
+    color: var(--yellow);
+}
+
+
+.about-page-hero h1 {
+    max-width: 850px;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    margin-bottom: 22px;
+
+    color: #ffffff;
+}
+
+
+.about-page-hero p {
+    max-width: 760px;
+
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    color: rgba(255, 255, 255, 0.94);
+}
+/* ==========================================
    PROGRAMS OVERVIEW PAGE
 ========================================== */
 
