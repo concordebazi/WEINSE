@@ -184,7 +184,14 @@ ul {
     color: #ffffff;
     transform: translateY(-2px);
 }
+.language-switch {
+    color: var(--purple);
+    font-weight: 700;
+}
 
+.language-switch:hover {
+    color: var(--pink);
+}
 
 /* ==========================================
    DROPDOWN MENU
