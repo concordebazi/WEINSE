@@ -3444,6 +3444,76 @@ background:
         rgba(255, 255, 255, 0.92);
 }
 /* ==========================================
+   BLOG - COMING SOON
+========================================== */
+
+.blog-coming-soon {
+    min-height: 650px;
+
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            120deg,
+            var(--purple-dark),
+            var(--purple),
+            var(--pink),
+            var(--orange)
+        );
+}
+
+.coming-soon-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.coming-soon-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.coming-soon-content h1 {
+    font-size: 64px;
+
+    margin-bottom: 20px;
+
+    color: #ffffff;
+}
+
+.coming-soon-content p {
+    font-size: 19px;
+
+    line-height: 1.8;
+
+    color:
+        rgba(255,255,255,0.94);
+
+    margin-bottom: 15px;
+}
+
+.coming-soon-small {
+    font-size: 16px !important;
+}
+
+.coming-soon-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+/* ==========================================
    TABLET
 ========================================== */
 
@@ -3475,6 +3545,22 @@ background:
     .footer-grid {
         grid-template-columns:
             repeat(2, 1fr);
+    }
+       .blog-coming-soon {
+        min-height: 560px;
+        padding: 75px 20px;
+    }
+
+    .coming-soon-content h1 {
+        font-size: 46px;
+    }
+
+    .coming-soon-buttons {
+        flex-direction: column;
+    }
+
+    .coming-soon-buttons .btn {
+        width: 100%;
     }
 
 }
