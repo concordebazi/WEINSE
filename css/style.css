@@ -1358,6 +1358,199 @@ background:
     margin-bottom: 0;
 }
 /* ==========================================
+   ABOUT PAGE - OUR VALUES
+========================================== */
+
+.values-section {
+    background: #ffffff;
+}
+
+
+/* Values grid */
+
+.values-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Shared value card */
+
+.value-card {
+    position: relative;
+
+    background: #ffffff;
+
+    padding: 35px 30px;
+
+    border-radius: 20px;
+
+    min-height: 270px;
+
+    border:
+        1px solid
+        rgba(0, 0, 0, 0.06);
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.07);
+
+    transition: 0.35s;
+}
+
+
+.value-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 20px 40px
+        rgba(74, 20, 95, 0.13);
+}
+
+
+/* Value icons */
+
+.value-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    font-size: 29px;
+
+    margin-bottom: 22px;
+}
+
+
+/* Value title */
+
+.value-card h3 {
+    font-size: 22px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Value text */
+
+.value-card p {
+    color: var(--grey);
+
+    font-size: 15px;
+
+    line-height: 1.75;
+}
+
+
+/* ==========================================
+   INDIVIDUAL VALUE COLORS
+========================================== */
+
+
+/* 1 - Empowerment */
+
+.value-card:nth-child(1) {
+    border-top:
+        5px solid var(--purple);
+}
+
+.value-card:nth-child(1) .value-icon {
+    background: var(--light-purple);
+}
+
+.value-card:nth-child(1) h3 {
+    color: var(--purple);
+}
+
+
+/* 2 - Inclusion */
+
+.value-card:nth-child(2) {
+    border-top:
+        5px solid var(--blue);
+}
+
+.value-card:nth-child(2) .value-icon {
+    background: var(--light-blue);
+}
+
+.value-card:nth-child(2) h3 {
+    color: var(--blue);
+}
+
+
+/* 3 - Growth */
+
+.value-card:nth-child(3) {
+    border-top:
+        5px solid var(--green);
+}
+
+.value-card:nth-child(3) .value-icon {
+    background: var(--light-green);
+}
+
+.value-card:nth-child(3) h3 {
+    color: var(--green-dark);
+}
+
+
+/* 4 - Diversity */
+
+.value-card:nth-child(4) {
+    border-top:
+        5px solid var(--orange);
+}
+
+.value-card:nth-child(4) .value-icon {
+    background: var(--light-orange);
+}
+
+.value-card:nth-child(4) h3 {
+    color: var(--orange);
+}
+
+
+/* 5 - Knowledge */
+
+.value-card:nth-child(5) {
+    border-top:
+        5px solid var(--pink);
+}
+
+.value-card:nth-child(5) .value-icon {
+    background: var(--light-pink);
+}
+
+.value-card:nth-child(5) h3 {
+    color: var(--pink);
+}
+
+
+/* 6 - Collaboration */
+
+.value-card:nth-child(6) {
+    border-top:
+        5px solid var(--yellow);
+}
+
+.value-card:nth-child(6) .value-icon {
+    background: #fff8dc;
+}
+
+.value-card:nth-child(6) h3 {
+    color: var(--gold);
+}
+/* ==========================================
    PROGRAMS OVERVIEW PAGE
 ========================================== */
 
