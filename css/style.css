@@ -3036,6 +3036,414 @@ background:
         rgba(112, 34, 131, 0.20);
 }
 /* ==========================================
+   PUBLICATIONS PAGE
+========================================== */
+
+
+/* ---------- PUBLICATION HERO ---------- */
+
+.publication-page-hero {
+    position: relative;
+
+    min-height: 460px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 90px 0;
+
+    color: #ffffff;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            120deg,
+            var(--blue-dark) 0%,
+            var(--purple-dark) 40%,
+            var(--purple) 72%,
+            var(--gold) 100%
+        );
+}
+
+
+.publication-page-hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 420px;
+    height: 420px;
+
+    border-radius: 50%;
+
+    right: -110px;
+    top: -140px;
+
+    background:
+        rgba(255, 255, 255, 0.08);
+}
+
+
+.publication-page-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+.publication-page-hero .section-label {
+    color: var(--yellow);
+}
+
+
+.publication-page-hero h1 {
+    max-width: 850px;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    margin-bottom: 22px;
+
+    color: #ffffff;
+}
+
+
+.publication-page-hero p {
+    max-width: 760px;
+
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    color:
+        rgba(255, 255, 255, 0.94);
+}
+
+
+/* ==========================================
+   PUBLICATION INTRO
+========================================== */
+
+.publication-intro {
+    max-width: 850px;
+
+    text-align: center;
+}
+
+
+.publication-intro h2 {
+    color: var(--blue-dark);
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+
+.publication-intro p {
+    color: var(--grey);
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   PUBLICATIONS SECTION
+========================================== */
+
+.publications-section {
+    background:
+        linear-gradient(
+            180deg,
+            #f7f8fb,
+            #f4f1f7
+        );
+}
+
+
+.publications-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 28px;
+}
+
+
+/* ==========================================
+   PUBLICATION CARDS
+========================================== */
+
+.publication-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 500px;
+
+    padding: 38px 32px;
+
+    background: #ffffff;
+
+    border-radius: 22px;
+
+    color: var(--dark);
+
+    border-top:
+        6px solid var(--purple);
+
+    box-shadow:
+        0 12px 32px
+        rgba(0, 0, 0, 0.07);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+
+    overflow: hidden;
+}
+
+
+.publication-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 22px 45px
+        rgba(40, 90, 145, 0.14);
+}
+
+
+/* Number */
+
+.publication-number {
+    position: absolute;
+
+    top: 18px;
+    right: 22px;
+
+    font-size: 46px;
+
+    font-weight: 800;
+
+    opacity: 0.08;
+}
+
+
+/* Icon */
+
+.publication-icon {
+    width: 66px;
+    height: 66px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    font-size: 31px;
+
+    margin-bottom: 22px;
+
+    background: var(--light-purple);
+}
+
+
+/* Type badge */
+
+.publication-type {
+    display: inline-block;
+
+    width: fit-content;
+
+    padding: 6px 12px;
+
+    margin-bottom: 16px;
+
+    border-radius: 18px;
+
+    background: var(--light-blue);
+
+    color: var(--blue-dark);
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.7px;
+}
+
+
+/* Title */
+
+.publication-card h3 {
+    color: var(--purple-dark);
+
+    font-size: 22px;
+
+    line-height: 1.35;
+
+    margin-bottom: 16px;
+}
+
+
+/* Authors */
+
+.publication-authors {
+    color: var(--blue-dark);
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    line-height: 1.6;
+
+    margin-bottom: 8px;
+}
+
+
+/* Year */
+
+.publication-year {
+    color: var(--gold);
+
+    font-weight: 800;
+
+    margin-bottom: 14px;
+}
+
+
+/* Description */
+
+.publication-description {
+    color: var(--grey);
+
+    font-size: 15px;
+
+    line-height: 1.75;
+
+    margin-bottom: 24px;
+}
+
+
+/* Link */
+
+.publication-link {
+    margin-top: auto;
+
+    font-weight: 700;
+
+    color: var(--purple);
+
+    transition: 0.25s;
+}
+
+
+.publication-link:hover {
+    color: var(--blue-dark);
+}
+
+
+/* ==========================================
+   INDIVIDUAL PUBLICATION COLORS
+========================================== */
+
+
+/* Publication 1 */
+
+.publication-purple {
+    border-top-color: var(--purple);
+}
+
+.publication-purple .publication-icon {
+    background: var(--light-purple);
+}
+
+
+/* Publication 2 */
+
+.publication-blue {
+    border-top-color: var(--blue);
+}
+
+.publication-blue .publication-icon {
+    background: var(--light-blue);
+}
+
+.publication-blue h3,
+.publication-blue .publication-link {
+    color: var(--blue-dark);
+}
+
+
+/* Publication 3 */
+
+.publication-green {
+    border-top-color: var(--green);
+}
+
+.publication-green .publication-icon {
+    background: var(--light-green);
+}
+
+.publication-green h3,
+.publication-green .publication-link {
+    color: var(--green-dark);
+}
+
+
+/* ==========================================
+   PUBLICATION CTA
+========================================== */
+
+.publication-cta {
+    padding: 90px 20px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            120deg,
+            var(--blue-dark),
+            var(--purple),
+            var(--green-dark)
+        );
+}
+
+
+.publication-cta h2 {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+}
+
+
+.publication-cta p {
+    max-width: 720px;
+
+    margin:
+        0 auto 25px;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    color:
+        rgba(255, 255, 255, 0.92);
+}
+/* ==========================================
    TABLET
 ========================================== */
 
@@ -3328,6 +3736,35 @@ background:
     .event-visual img {
         border-radius: 11px;
     
+    }
+           /* ==========================================
+       PUBLICATIONS PAGE - MOBILE
+    ========================================== */
+
+    .publication-page-hero {
+        min-height: 400px;
+        text-align: center;
+    }
+
+    .publication-page-hero h1 {
+        font-size: 42px;
+    }
+
+    .publication-intro h2 {
+        font-size: 34px;
+    }
+
+    .publications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .publication-card {
+        min-height: auto;
+        padding: 32px 26px;
+    }
+
+    .publication-cta h2 {
+        font-size: 34px;
     }
           /* ==========================================
        MEMBERSHIP PAGE - MOBILE
