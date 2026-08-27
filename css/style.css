@@ -4709,6 +4709,100 @@ background:
     .membership-price-card {
         padding: 40px 28px;
     } 
+           /* ==========================================
+       PROJECTS PAGE - MOBILE
+    ========================================== */
+
+    .projects-page-hero {
+        min-height: 410px;
+        text-align: center;
+    }
+
+    .projects-page-hero h1 {
+        font-size: 42px;
+    }
+
+    .projects-intro h2 {
+        font-size: 34px;
+    }
+
+
+    .featured-project-top {
+        grid-template-columns: 1fr;
+
+        padding: 32px 26px;
+
+        gap: 30px;
+    }
+
+
+    .featured-project-top h3 {
+        font-size: 28px;
+    }
+
+
+    .project-impact-number {
+        min-height: 210px;
+    }
+
+
+    .project-impact-number strong {
+        font-size: 68px;
+    }
+
+
+    .project-facts {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .featured-project-body {
+        padding: 32px 26px;
+    }
+
+
+    .project-activities-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .project-activity-card {
+        min-height: auto;
+    }
+
+
+    .project-results-grid {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+
+    .project-results-grid h2 {
+        font-size: 34px;
+    }
+
+
+    .project-results-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .other-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .other-project-card {
+        min-height: auto;
+
+        padding: 32px 26px;
+    }
+
+
+    .project-cta h2 {
+        font-size: 34px;
+    }
     }
    
    
