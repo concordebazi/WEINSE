@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Konsulttjänster | WEINSE
+    </title>
+
+    <meta name="description"
+          content="WEINSE erbjuder professionell rådgivning och stöd inom kvinnors egenmakt, migration, mångfald, inkludering och integration.">
+
+    <link rel="stylesheet"
+          href="../../css/style.css">
+
+</head>
+
+<body>
+
+
+<!-- =====================================
+     HEADER / NAVIGATION
+===================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a href="../index.html"
+           class="logo-area">
+
+            <img src="../../images/weinse-logo.png"
+                 alt="WEINSE Logo"
+                 class="site-logo">
+
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Öppna navigation">
+
+            ☰
+
+        </button>
+
+
+        <nav class="main-nav"
+             id="main-nav">
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">
+                        Hem
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../about/index.html">
+                        Om oss
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="index.html">
+                        Program ▾
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="coaching-mentoring.html">
+                                Coachning & Mentorskap
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="training.html">
+                                Utbildning
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="consultancy.html">
+                                Konsulttjänster
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="capacity-building.html">
+                                Kapacitetsutveckling
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="research.html">
+                                Forskning
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="../project/index.html">
+                        Projekt
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../news-events/index.html">
+                        Nyheter & Evenemang
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../publication/index.html">
+                        Publikationer
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../blog/index.html">
+                        Blogg
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../../program/consultancy.html"
+                       class="language-switch">
+                        🇬🇧 English
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../membership/index.html"
+                       class="membership-btn">
+                        Medlemskap
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================
+     PROGRAM HERO
+===================================== -->
+
+<section class="program-page-hero">
+
+    <div class="container">
+
+        <span class="section-label">
+            WEINSE-program
+        </span>
+
+        <h1>
+            Konsulttjänster
+        </h1>
+
+        <p>
+            Professionell rådgivning, strategiskt stöd
+            och praktisk vägledning för organisationer
+            som arbetar med kvinnors egenmakt, migration,
+            mångfald, inkludering och integration.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     INTRODUKTION
+===================================== -->
+
+<section class="section">
+
+    <div class="container program-content">
+
+        <div>
+
+            <span class="section-label">
+                Om programmet
+            </span>
+
+            <h2>
+                Kunskap som stödjer bättre beslut
+            </h2>
+
+            <p>
+                WEINSE erbjuder konsulttjänster till
+                organisationer, institutioner och
+                samhällsaktörer som vill stärka sitt arbete
+                med kvinnor, jämställdhet, integration
+                och social delaktighet.
+            </p>
+
+            <p>
+                Vårt konsultarbete kombinerar praktisk
+                erfarenhet, forskning, dialog och förståelse
+                för de utmaningar och möjligheter som kvinnor
+                med olika bakgrunder möter.
+            </p>
+
+        </div>
+
+
+        <div class="program-highlight-card">
+
+            <h3>
+                Vårt arbetssätt
+            </h3>
+
+            <p>
+                Vi samarbetar med organisationer för att
+                identifiera behov, utveckla lösningar och
+                stärka strategier som skapar mer inkluderande
+                och hållbara resultat.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     KONSULTOMRÅDEN
+===================================== -->
+
+<section class="section program-details-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                Vad vi erbjuder
+            </span>
+
+            <h2>
+                Våra konsultområden
+            </h2>
+
+        </div>
+
+
+        <div class="program-details-grid">
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Jämställdhet
+                </h3>
+
+                <p>
+                    Vi stödjer organisationer i att utveckla
+                    mer inkluderande arbetssätt, policyer
+                    och metoder som bättre möter kvinnors
+                    behov och erfarenheter.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Integrationsstrategier
+                </h3>
+
+                <p>
+                    Rådgivning och stöd till initiativ som
+                    stärker delaktighet, inkludering och
+                    integration för migrantkvinnor och
+                    nyanlända kvinnor.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Organisationsutveckling
+                </h3>
+
+                <p>
+                    Vi stödjer organisationer i att stärka
+                    strukturer, processer, planering och
+                    arbetssätt.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Programutveckling
+                </h3>
+
+                <p>
+                    Vägledning i utveckling av program,
+                    aktiviteter och insatser som svarar
+                    mot samhällsbehov och skapar
+                    mätbara resultat.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Mångfald & Inkludering
+                </h3>
+
+                <p>
+                    Vi hjälper organisationer att stärka
+                    mångfald, inkludering, delaktighet
+                    och representation i sitt arbete.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Samverkan med intressenter
+                </h3>
+
+                <p>
+                    Vi stödjer starkare samarbete mellan
+                    organisationer, samhällen, institutioner
+                    och kvinnoledda nätverk.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     VEM ÄR PROGRAMMET FÖR?
+===================================== -->
+
+<section class="section">
+
+    <div class="container program-audience">
+
+        <div>
+
+            <span class="section-label">
+                Vem är programmet för?
+            </span>
+
+            <h2>
+                Stöd för organisationer och institutioner
+            </h2>
+
+            <p>
+                WEINSE:s konsulttjänster är utformade för
+                organisationer och institutioner som söker
+                praktiskt stöd för att stärka sitt arbete
+                med kvinnor, migration, inkludering,
+                integration och samhällsdelaktighet.
+            </p>
+
+        </div>
+
+
+        <div class="audience-list">
+
+            <div>
+                ✓ Icke-statliga organisationer
+            </div>
+
+            <div>
+                ✓ Kommuner och offentliga institutioner
+            </div>
+
+            <div>
+                ✓ Kvinnoorganisationer och nätverk
+            </div>
+
+            <div>
+                ✓ Samhällsbaserade organisationer
+            </div>
+
+            <div>
+                ✓ Projekt och utvecklingsinitiativ
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     UPPMANING TILL KONTAKT
+===================================== -->
+
+<section class="program-cta">
+
+    <div class="container">
+
+        <h2>
+            Söker ni konsultstöd?
+        </h2>
+
+        <p>
+            Kontakta WEINSE för att diskutera
+            organisationens behov och utforska hur
+            vi kan stödja ert arbete.
+        </p>
+
+        <a href="mailto:weinse@gmail.com"
+           class="btn btn-light">
+
+            Kontakta WEINSE
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <img src="../../images/weinse-logo.png"
+                 alt="WEINSE"
+                 class="footer-logo">
+
+            <p>
+                Women Empowerment and Integration Network
+            </p>
+
+            <strong>
+                Stärka. Integrera. Inspirera.
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Program
+            </h4>
+
+            <ul>
+
+                <li>
+                    <a href="coaching-mentoring.html">
+                        Coachning & Mentorskap
+                    </a>
+                </li>
+
+                <li>
+                    <a href="training.html">
+                        Utbildning
+                    </a>
+                </li>
+
+                <li>
+                    <a href="consultancy.html">
+                        Konsulttjänster
+                    </a>
+                </li>
+
+                <li>
+                    <a href="capacity-building.html">
+                        Kapacitetsutveckling
+                    </a>
+                </li>
+
+                <li>
+                    <a href="research.html">
+                        Forskning
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Kontakt
+            </h4>
+
+            <p>
+                📞 072 903 68 10
+            </p>
+
+            <p>
+                ✉ weinse@gmail.com
+            </p>
+
+            <p>
+                Göteborg, Sverige
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Women Empowerment and Integration Network
+            (WEINSE). Alla rättigheter förbehållna.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="../../js/main.js"></script>
+
+</body>
+
+</html>
