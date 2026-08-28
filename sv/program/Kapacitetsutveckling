@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Kapacitetsutveckling | WEINSE
+    </title>
+
+    <meta name="description"
+          content="WEINSE stärker kvinnoledda organisationer, samhällsgrupper och nätverk genom ledarskap, styrning, projektutveckling och hållbar organisationsutveckling.">
+
+    <link rel="stylesheet"
+          href="../../css/style.css">
+
+</head>
+
+<body>
+
+
+<!-- =====================================
+     HEADER / NAVIGATION
+===================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a href="../index.html"
+           class="logo-area">
+
+            <img src="../../images/weinse-logo.png"
+                 alt="WEINSE Logo"
+                 class="site-logo">
+
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Öppna navigation">
+
+            ☰
+
+        </button>
+
+
+        <nav class="main-nav"
+             id="main-nav">
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">
+                        Hem
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../about/index.html">
+                        Om oss
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="index.html">
+                        Program ▾
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="coaching-mentoring.html">
+                                Coachning & Mentorskap
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="training.html">
+                                Utbildning
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="consultancy.html">
+                                Konsulttjänster
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="capacity-building.html">
+                                Kapacitetsutveckling
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="research.html">
+                                Forskning
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="../project/index.html">
+                        Projekt
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../news-events/index.html">
+                        Nyheter & Evenemang
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../publication/index.html">
+                        Publikationer
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../blog/index.html">
+                        Blogg
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../../program/capacity-building.html"
+                       class="language-switch">
+                        🇬🇧 English
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../membership/index.html"
+                       class="membership-btn">
+                        Medlemskap
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================
+     PROGRAM HERO
+===================================== -->
+
+<section class="program-page-hero">
+
+    <div class="container">
+
+        <span class="section-label">
+            WEINSE-program
+        </span>
+
+        <h1>
+            Kapacitetsutveckling
+        </h1>
+
+        <p>
+            Vi stärker kvinnoledda organisationer,
+            samhällsgrupper och nätverk med den
+            kunskap, kompetens och de strukturer som
+            behövs för hållbar utveckling och större genomslag.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     INTRODUKTION
+===================================== -->
+
+<section class="section">
+
+    <div class="container program-content">
+
+        <div>
+
+            <span class="section-label">
+                Om programmet
+            </span>
+
+            <h2>
+                Starkare organisationer. Större genomslag.
+            </h2>
+
+            <p>
+                WEINSE:s program för kapacitetsutveckling
+                hjälper organisationer och samhällsgrupper
+                att stärka sin interna kapacitet,
+                sitt ledarskap och sin långsiktiga hållbarhet.
+            </p>
+
+            <p>
+                Genom praktiskt stöd, lärande och
+                organisationsutveckling kan deltagarna
+                förbättra sin förmåga att planera,
+                genomföra projekt, mobilisera resurser,
+                samarbeta och skapa långsiktiga resultat.
+            </p>
+
+        </div>
+
+
+        <div class="program-highlight-card">
+
+            <h3>
+                Vårt mål
+            </h3>
+
+            <p>
+                Att stärka den kunskap, de system och
+                det ledarskap som gör det möjligt för
+                kvinnoledda organisationer och nätverk
+                att bli motståndskraftiga, effektiva
+                och hållbara.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     OMRÅDEN INOM KAPACITETSUTVECKLING
+===================================== -->
+
+<section class="section program-details-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                Vad vi erbjuder
+            </span>
+
+            <h2>
+                Områden inom kapacitetsutveckling
+            </h2>
+
+        </div>
+
+
+        <div class="program-details-grid">
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Organisationsstyrning
+                </h3>
+
+                <p>
+                    Vi stödjer organisationer i att stärka
+                    ledningsstrukturer, ansvarsfördelning,
+                    beslutsfattande och ansvarstagande.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Projektledning
+                </h3>
+
+                <p>
+                    Vi bygger praktiska färdigheter inom
+                    projektplanering, genomförande,
+                    uppföljning, utvärdering och rapportering.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Finansiering & Resursmobilisering
+                </h3>
+
+                <p>
+                    Vi hjälper organisationer att identifiera
+                    finansieringsmöjligheter, utveckla
+                    projektansökningar och skapa hållbara
+                    strategier för resursmobilisering.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Ledarskapsutveckling
+                </h3>
+
+                <p>
+                    Vi stärker ledarskapsförmåga,
+                    självförtroende, strategiskt tänkande
+                    och effektiv organisationsledning.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Partnerskapsutveckling
+                </h3>
+
+                <p>
+                    Vi stödjer organisationer i att bygga
+                    meningsfulla partnerskap, nätverk och
+                    samarbetsinitiativ.
+                </p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <h3>
+                    Strategisk planering
+                </h3>
+
+                <p>
+                    Vi hjälper organisationer att definiera
+                    sina prioriteringar, mål, aktiviteter
+                    och sin långsiktiga inriktning.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     VEM ÄR PROGRAMMET FÖR?
+===================================== -->
+
+<section class="section">
+
+    <div class="container program-audience">
+
+        <div>
+
+            <span class="section-label">
+                Vem är programmet för?
+            </span>
+
+            <h2>
+                Vi bygger starkare samhällsorganisationer
+            </h2>
+
+            <p>
+                Programmet för kapacitetsutveckling är
+                utformat för organisationer och grupper
+                som vill stärka sina strukturer, sitt
+                ledarskap, sitt projektgenomförande och
+                sin förmåga att skapa hållbar social förändring.
+            </p>
+
+        </div>
+
+
+        <div class="audience-list">
+
+            <div>
+                ✓ Kvinnoorganisationer
+            </div>
+
+            <div>
+                ✓ Migrantorganisationer och nätverk
+            </div>
+
+            <div>
+                ✓ Samhällsbaserade organisationer
+            </div>
+
+            <div>
+                ✓ Framväxande kvinnliga ledare
+            </div>
+
+            <div>
+                ✓ Ideella organisationer och civilsamhällesorganisationer
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     UPPMANING TILL KONTAKT
+===================================== -->
+
+<section class="program-cta">
+
+    <div class="container">
+
+        <h2>
+            Stärk er organisation med WEINSE
+        </h2>
+
+        <p>
+            Kontakta WEINSE för att diskutera
+            kapacitetsutveckling, organisationsutveckling
+            och möjligheter till partnerskap.
+        </p>
+
+        <a href="mailto:weinse@gmail.com"
+           class="btn btn-light">
+
+            Kontakta WEINSE
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <img src="../../images/weinse-logo.png"
+                 alt="WEINSE"
+                 class="footer-logo">
+
+            <p>
+                Women Empowerment and Integration Network
+            </p>
+
+            <strong>
+                Stärka. Integrera. Inspirera.
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Program
+            </h4>
+
+            <ul>
+
+                <li>
+                    <a href="coaching-mentoring.html">
+                        Coachning & Mentorskap
+                    </a>
+                </li>
+
+                <li>
+                    <a href="training.html">
+                        Utbildning
+                    </a>
+                </li>
+
+                <li>
+                    <a href="consultancy.html">
+                        Konsulttjänster
+                    </a>
+                </li>
+
+                <li>
+                    <a href="capacity-building.html">
+                        Kapacitetsutveckling
+                    </a>
+                </li>
+
+                <li>
+                    <a href="research.html">
+                        Forskning
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Kontakt
+            </h4>
+
+            <p>
+                📞 072 903 68 10
+            </p>
+
+            <p>
+                ✉ weinse@gmail.com
+            </p>
+
+            <p>
+                Göteborg, Sverige
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Women Empowerment and Integration Network
+            (WEINSE). Alla rättigheter förbehållna.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="../../js/main.js"></script>
+
+</body>
+
+</html>
