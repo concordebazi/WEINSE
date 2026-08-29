@@ -4975,3 +4975,27 @@ background:
         height: 280px;
     }
 }
+/* =========================================
+   PROGRAM HOME IMAGE
+========================================= */
+
+.program-home-image {
+    margin: 35px auto 45px;
+    max-width: 1050px;
+}
+
+.program-home-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .program-home-image img {
+        height: 280px;
+    }
+}
