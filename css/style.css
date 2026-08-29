@@ -4951,3 +4951,27 @@ background:
     }
 
 }
+/* =========================================
+   ABOUT HOME IMAGE
+========================================= */
+
+.about-home-image {
+    margin: 35px auto 30px;
+    max-width: 900px;
+}
+
+.about-home-image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .about-home-image img {
+        height: 280px;
+    }
+}
