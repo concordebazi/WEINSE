@@ -5065,3 +5065,47 @@ background:
         height: 280px;
     }
 }
+/* ==========================================
+   HERO SLIDESHOW - MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 620px;
+    }
+
+    .hero-slide {
+        background-position: center center;
+    }
+
+    .hero-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+        line-height: 1.08;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .hero-small {
+        font-size: 13px;
+    }
+
+    .hero-overlay {
+        background:
+            linear-gradient(
+                90deg,
+                rgba(45, 10, 70, 0.88) 0%,
+                rgba(75, 23, 103, 0.72) 55%,
+                rgba(20, 10, 30, 0.48) 100%
+            );
+    }
+
+}
