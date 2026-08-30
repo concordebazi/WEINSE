@@ -21,28 +21,45 @@ if (menuToggle && mainNav) {
     );
 
 }
+
+
 /* ==========================================
    HERO SLIDESHOW
 ========================================== */
 
-const heroSlides = document.querySelectorAll(".hero-slide");
+document.addEventListener("DOMContentLoaded", function () {
 
-let currentHeroSlide = 0;
+    const heroSlides =
+        document.querySelectorAll(".hero-slide");
 
-if (heroSlides.length > 0) {
+    console.log(
+        "WEINSE hero slides found:",
+        heroSlides.length
+    );
 
-    setInterval(() => {
+    if (heroSlides.length <= 1) {
+        return;
+    }
 
-        heroSlides[currentHeroSlide].classList.remove("active");
+    let currentHeroSlide = 0;
 
-        currentHeroSlide++;
+    setInterval(function () {
 
-        if (currentHeroSlide >= heroSlides.length) {
-            currentHeroSlide = 0;
-        }
+        heroSlides[currentHeroSlide]
+            .classList.remove("active");
 
-        heroSlides[currentHeroSlide].classList.add("active");
+        currentHeroSlide =
+            (currentHeroSlide + 1) %
+            heroSlides.length;
+
+        heroSlides[currentHeroSlide]
+            .classList.add("active");
+
+        console.log(
+            "Showing WEINSE hero slide:",
+            currentHeroSlide + 1
+        );
 
     }, 5000);
 
-}
+});
