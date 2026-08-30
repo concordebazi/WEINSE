@@ -375,20 +375,7 @@ ul {
     bottom: -130px;
 }
 
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-}
 
-.hero-content {
-    position: relative;
-
-    z-index: 2;
-
-    color: #ffffff;
-
-    max-width: 850px;
-}
 
 .hero-small {
     display: inline-block;
