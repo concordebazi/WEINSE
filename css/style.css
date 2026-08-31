@@ -3958,7 +3958,18 @@ background:
 
     margin: 10px auto 8px;
 }
+.eu-partner-logo {
+    display: block;
 
+    width: 220px;
+    max-width: 95%;
+
+    height: auto;
+
+    object-fit: contain;
+
+    margin: 20px auto 12px;
+}
 
 .wide-partner-fact strong {
     color: var(--purple-dark);
