@@ -5109,3 +5109,54 @@ background:
     }
 
 }
+/* =========================================
+   PROJECT PARTNER LOGOS
+========================================= */
+
+.project-partner-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.project-partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-partner img {
+    display: block;
+    object-fit: contain;
+}
+
+.wide-partner-logo {
+    max-width: 150px;
+    height: 70px;
+}
+
+.eu-partner-logo {
+    max-width: 120px;
+    height: 70px;
+}
+
+.project-partner p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .project-partner-logos {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .wide-partner-logo,
+    .eu-partner-logo {
+        height: 60px;
+    }
+}
