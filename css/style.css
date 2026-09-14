@@ -2514,7 +2514,24 @@ background:
 
     transition: 0.35s;
 }
+/* ==========================================
+   STRONG EVENT CARD BACKGROUNDS
+========================================== */
 
+/* Event 1 - Orange */
+.news-card:nth-child(1) {
+    background: var(--orange);
+}
+
+/* Event 2 - Pink */
+.news-card:nth-child(2) {
+    background: var(--pink);
+}
+
+/* Event 3 - Purple */
+.news-card:nth-child(3) {
+    background: var(--purple);
+}
 
 .news-card:hover {
     transform: translateY(-8px);
@@ -5189,22 +5206,4 @@ background:
 
     border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
-}
-/* ==========================================
-   DIFFERENT EVENT CARD BACKGROUNDS
-========================================== */
-
-/* Event 1 */
-.news-card:nth-child(1) {
-    background: var(--light-orange);
-}
-
-/* Event 2 */
-.news-card:nth-child(2) {
-    background: var(--light-pink);
-}
-
-/* Event 3 */
-.news-card:nth-child(3) {
-    background: var(--light-purple);
 }
