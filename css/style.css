@@ -2593,7 +2593,23 @@ background:
 
     margin-bottom: 14px;
 }
+/* ==========================================
+   EVENT CARDS - WHITE TEXT
+========================================== */
 
+.event-card-1 h3,
+.event-card-1 p,
+.event-card-1 a,
+
+.event-card-2 h3,
+.event-card-2 p,
+.event-card-2 a,
+
+.event-card-3 h3,
+.event-card-3 p,
+.event-card-3 a {
+    color: #ffffff;
+}
 
 .news-card p {
     color: var(--grey);
