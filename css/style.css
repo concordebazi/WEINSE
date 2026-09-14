@@ -2519,7 +2519,7 @@ background:
 ========================================== */
 
 /* Event 1 - Orange */
-.news-card:nth-child(1) {
+.event-card-1 {
     background: var(--orange);
 }
 
