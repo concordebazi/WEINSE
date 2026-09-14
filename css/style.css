@@ -5190,3 +5190,21 @@ background:
     border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
 }
+/* ==========================================
+   DIFFERENT EVENT CARD BACKGROUNDS
+========================================== */
+
+/* Event 1 */
+.news-card:nth-child(1) {
+    background: var(--light-orange);
+}
+
+/* Event 2 */
+.news-card:nth-child(2) {
+    background: var(--light-pink);
+}
+
+/* Event 3 */
+.news-card:nth-child(3) {
+    background: var(--light-purple);
+}
