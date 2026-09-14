@@ -2528,7 +2528,7 @@ background:
     background: var(--pink);
 }
 /* Event 3 - Purple */
-.news-card:nth-child(3) {
+.event-card-3 {
     background: var(--purple);
 }
 
