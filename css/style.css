@@ -474,7 +474,7 @@ transition:
 .btn-secondary:hover {
     background: #ffffff;
 
-    color: var(--purple-dark);
+    color: var(--blue);
 }
 
 .btn-light {
