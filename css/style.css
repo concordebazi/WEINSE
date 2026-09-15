@@ -5222,3 +5222,61 @@ background:
     border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
 }
+/* ==========================================
+   FINAL EVENT CARD COLORS & READABILITY
+========================================== */
+
+/* EVENT 1 - ORANGE */
+.event-card-1 {
+    background: #ef7d22;
+}
+
+/* EVENT 2 - PINK */
+.event-card-2 {
+    background: #d62976;
+}
+
+/* EVENT 3 - PURPLE */
+.event-card-3 {
+    background: #702283;
+}
+
+
+/* WHITE TITLES */
+.event-card-1 h3,
+.event-card-2 h3,
+.event-card-3 h3 {
+    color: #ffffff;
+}
+
+
+/* WHITE DESCRIPTION TEXT */
+.event-card-1 p,
+.event-card-2 p,
+.event-card-3 p {
+    color: #ffffff;
+}
+
+
+/* WHITE READ MORE LINKS */
+.event-card-1 a,
+.event-card-2 a,
+.event-card-3 a {
+    color: #ffffff;
+}
+
+
+/* Make Read More stand out */
+.event-card-1 a,
+.event-card-2 a,
+.event-card-3 a {
+    font-weight: 700;
+}
+
+
+/* Slightly transparent white on paragraphs */
+.event-card-1 p,
+.event-card-2 p,
+.event-card-3 p {
+    color: rgba(255, 255, 255, 0.92);
+}
