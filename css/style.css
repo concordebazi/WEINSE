@@ -5311,3 +5311,103 @@ background:
     }
 
 }
+
+/* ==========================================
+   PARTNERS STRIP (shown above footer on every page)
+========================================== */
+
+.partners-strip {
+    background: #ffffff;
+
+    padding: 50px 0 55px;
+
+    border-top: 1px solid #eee6f0;
+}
+
+.partners-title {
+    text-align: center;
+
+    color: #211429;
+
+    font-size: 26px;
+
+    margin-bottom: 30px;
+}
+
+.partners-logos {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 28px 44px;
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.partner-logo {
+    flex-shrink: 0;
+}
+
+.partner-logo img {
+    display: block;
+
+    height: 64px;
+
+    width: auto;
+
+    max-width: 190px;
+
+    object-fit: contain;
+}
+
+.partner-logo--eu {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.partner-logo--eu .eu-flag {
+    height: 44px;
+
+    max-width: none;
+}
+
+.partner-logo--eu span {
+    font-size: 15px;
+
+    line-height: 1.25;
+
+    color: #211429;
+
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .partners-strip {
+        padding: 36px 0 40px;
+    }
+
+    .partners-logos {
+        gap: 22px 28px;
+    }
+
+    .partner-logo img {
+        height: 48px;
+
+        max-width: 140px;
+    }
+
+    .partner-logo--eu .eu-flag {
+        height: 34px;
+    }
+}
