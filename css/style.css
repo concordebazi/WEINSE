@@ -4709,7 +4709,9 @@ background:
 
     .programs-intro h2 {
         font-size: 34px;
-       .mission-vision-grid {
+    }
+
+    .mission-vision-grid {
         grid-template-columns: 1fr;
     }
 
@@ -5409,5 +5411,38 @@ background:
 
     .partner-logo--eu .eu-flag {
         height: 34px;
+    }
+}
+
+
+/* ==========================================
+   MOBILE: LONG WORDS
+   Long (often Swedish) compound words must wrap
+   instead of pushing the page wider than the phone.
+========================================== */
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+
+    h1,
+    h2,
+    h3 {
+        hyphens: auto;
+        overflow-wrap: anywhere;
+    }
+
+    .event-box > *,
+    .program-audience > *,
+    .featured-event-card > *,
+    .detail-card {
+        min-width: 0;
     }
 }
